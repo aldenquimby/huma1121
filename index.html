@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>ART HUMMMM</title>
+	<link href="styles/bootstrap.css" rel="stylesheet"/>
+	<link href="styles/styles.css" rel="stylesheet"/>
+</head>
+
+<body>
+	<div class="showAll">
+		<a href="#">show all</a>
+	</div>
+	<div class="hideAll">
+		<a href="#">hide all</a>
+	</div>
+	<div class="row header">
+		<div class="col-md-6"><h2>Images</h2></div>
+		<div class="col-md-6"><h2>Info</h2></div>
+	</div>
+</body>
+
+<!-- JS framework -->
+<script src="scripts/framework/jquery-1.10.2.min.js"></script>
+<script src="scripts/framework/underscore-min.js"></script>
+<script src="scripts/framework/backbone.js"></script>
+<script src="scripts/framework/mustache.js"></script>
+<script src="scripts/framework/jquery-mustache.js"></script>
+
+<!-- JS views -->
+<script src="scripts/views/studyView.js"></script>
+
+<!-- templates -->
+<script id="work" type="text/html">
+	<div class="row">
+		<div class="col-md-6">
+			<img class="art-image" src="{{url}}" />
+		</div>
+		<div class="col-md-6 info">
+			<div class="toggle">
+				<a href="#">toggle</a>
+			</div>
+			<dl class="dl-horizontal details">
+			  <dt>Title</dt><dd>{{title}}</dd>
+			  <dt>Artist</dt><dd>{{artist}}</dd>
+			  <dt>Date</dt><dd>{{date}}</dd>
+			  <dt>Medium</dt><dd>{{medium}}</dd>
+			  <dt>Location</dt><dd>{{location}}</dd>
+			</dl>
+		</div>
+	</div>
+</script>
+
+<!-- data -->
+<script src="data/midterm.json"></script>
+
+<!-- app start -->
+<script>
+	$(function () {
+		$.Mustache.addFromDom('work');
+		new StudyView({el: $('body')});
+	});
+</script>
+
+</html>

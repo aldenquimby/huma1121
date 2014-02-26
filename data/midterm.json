@@ -1,0 +1,669 @@
+var art = [
+
+{
+	"url": "http://www.computus.org/journal/wp-content/uploads/2009/01/the-garden-of-earthly-delights.jpg",
+	"title": "Garden of Earthly Delights",
+	"artist": "Hieronymus Bosch",
+	"date": "16th Century",
+	"medium": "Oil on wood",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/a/aa/Pieter_Bruegel_The_Peasant_Dance.jpg",
+	"title": "The Peasant Dance",
+	"artist": "Pieter Bruegel",
+	"date": "16th Century",
+	"medium": "Oil on panel",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/9/9f/The_Peasant_and_the_Birdnester_Pieter_Bruegel_the_Elder_1568.jpeg",
+	"title": "The Peasant and the Birdnester",
+	"artist": "Pieter Bruegel",
+	"date": "16th Century",
+	"medium": "Oil on panel",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/0/03/Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_WGA03322.jpg",
+	"title": "Landscape with Fall of Icarus",
+	"artist": "Pieter Bruegel",
+	"date": "16th Century",
+	"medium": "Oil on canvas",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/8/8b/Rembrandt_-_Klesveverlaugets_forstandere_i_Amsterdam.jpg",
+	"title": "The Syndics of the Drapers' Guild",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "oil on canvas",
+	"location": "Netherlands"
+},
+{
+	"url": "http://www.metmuseum.org/toah/images/h2/h2_RuttenbergGift.jpg",
+	"title": "Las Meninas by Velazquez",
+	"artist": "Goya",
+	"date": "18th Century",
+	"medium": "etching",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Francisco_de_Goya_y_Lucientes_054.jpg/1470px-Francisco_de_Goya_y_Lucientes_054.jpg",
+	"title": "Family of Charles IV",
+	"artist": "Goya",
+	"date": "Turn of 19th Century",
+	"medium": "testing",
+	"location": "Spain"
+},
+{
+	"url": "http://www.pubhist.com/works/13/large/francisco_goya_company_philippines.jpg",
+	"title": "Meeting of the Royal Company of the Philippines",
+	"artist": "Goya",
+	"date": "19th Century",
+	"medium": "Oil on Canvas",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/5/54/Francisco_de_Goya_y_Lucientes_-_The_Clothed_Maja_%28La_Maja_Vestida%29_-_WGA10045.jpg",
+	"title": "The Clothed Maja",
+	"artist": "Goya",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/a/a0/Francisco_de_Goya_y_Lucientes_-_The_Nude_Maja_%28La_Maja_Desnuda%29_-_WGA10044.jpg",
+	"title": "The Nude Maja",
+	"artist": "Goya",
+	"date": "Turn of 19th Century",
+	"medium": "Oil on canvas",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/4/48/Lavendimia_Goya_lou.jpg",
+	"title": "Autumn (or) The Vintage",
+	"artist": "Goya",
+	"date": "18th Century",
+	"medium": "Oil on canvas",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/6/64/Francisco_de_Goya_y_Lucientes_-_The_Wedding_-_WGA10010.jpg",
+	"title": "The Wedding",
+	"artist": "Goya",
+	"date": "18th Century",
+	"medium": "Oil on canvas",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/e/ed/Goya_-_Second_of_May_1808.jpg",
+	"title": "The Second of May",
+	"artist": "Goya",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/1551px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg",
+	"title": "The Third of May",
+	"artist": "Goya",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/0/09/Autorretrato_%281797-1799%29._Dibujo_preparatorio_de_Los_caprichos.jpg",
+	"title": "Los Caprichos",
+	"artist": "Goya",
+	"date": "18th Century",
+	"medium": "etching and aquatint",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/And_so_was_his_grandfather_LACMA_63.11.39.jpg/830px-And_so_was_his_grandfather_LACMA_63.11.39.jpg",
+	"title": "Los Caprichos, And So Was His Grandfather",
+	"artist": "Goya",
+	"date": "18th Century",
+	"medium": "etching and aquatint",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_%28No._43%29%2C_from_Los_Caprichos_-_Google_Art_Project.jpg/792px-Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_%28No._43%29%2C_from_Los_Caprichos_-_Google_Art_Project.jpg",
+	"title": "Los Caprichos, The Sleep of Reason Produces Monsters",
+	"artist": "Goya",
+	"date": "18th Century",
+	"medium": "etching and aquating",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/What_a_sacrifice%21_LACMA_63.11.14.jpg/838px-What_a_sacrifice%21_LACMA_63.11.14.jpg",
+	"title": "Los Caprichos, What a Sacrifice!",
+	"artist": "Goya",
+	"date": "18th Century",
+	"medium": "etching and aquating",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/What_a_tailor_can_do%21_LACMA_63.11.52.jpg/832px-What_a_tailor_can_do%21_LACMA_63.11.52.jpg",
+	"title": "Los Caprichos, What a Tailor Can Do!",
+	"artist": "Goya",
+	"date": "18th Century",
+	"medium": "etching and aquating",
+	"location": "Spain"
+},
+{
+	"url": "http://www.metmuseum.org/toah/images/hb/hb_32.62.17.jpg",
+	"title": "Disasters of War - And There is Nothing To Be Done",
+	"artist": "Goya",
+	"date": "19th Century",
+	"medium": "etching",
+	"location": "Spain"
+},
+{
+	"url": "http://uploads3.wikipaintings.org/images/francisco-goya/this-is-worse-1815.jpg",
+	"title": "Disasters of War - This is Worse",
+	"artist": "Goya",
+	"date": "19th Century",
+	"medium": "etching",
+	"location": "Spain"
+},
+{
+	"url": "http://www.metmuseum.org/toah/images/h2/h2_22.60.25.26.jpg",
+	"title": "Disasters of War - One can't look",
+	"artist": "Goya",
+	"date": "19th Century",
+	"medium": "etching",
+	"location": "Spain"
+},
+{
+	"url": "http://2.bp.blogspot.com/_2QJSeWQoKyA/SEwUP-eo42I/AAAAAAAADkI/UC3zHbpls4Q/s400/goya.gif",
+	"title": "Disasters of War - Not This",
+	"artist": "Goya",
+	"date": "19th Century",
+	"medium": "etching",
+	"location": "Spain"
+},
+{
+	"url": "http://3.bp.blogspot.com/-fhEy7k0NpvA/T-R8vELB5gI/AAAAAAAACmw/Sdjt4OEdB4M/s1600/Goya_grande_hazana.jpg",
+	"title": "Disasters of War - Heroic Feat! With Dead Men!",
+	"artist": "Goya",
+	"date": "19th Century",
+	"medium": "etching",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/9/95/Francisco_de_Goya_-_I_saw_it_(Yo_lo_vi)_from_the_series_The_Disasters_of_War_(Los_Desastres_de_la_Guerra)_-_Google_Art_Project.jpg",
+	"title": "Disasters of War - I saw it",
+	"artist": "Goya",
+	"date": "19th Century",
+	"medium": "etching",
+	"location": "Spain"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gian_lorenzo_bernini%2C_faun_teased_by_children_03.JPG/632px-Gian_lorenzo_bernini%2C_faun_teased_by_children_03.JPG",
+	"title": "Faun teased by Children",
+	"artist": "Bernini",
+	"date": "17th Century",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://employees.oneonta.edu/farberas/arth/Images/110images/sl13_images/bernini_david4.jpg",
+	"title": "David",
+	"artist": "Bernini",
+	"date": "17th Century",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://users.ipfw.edu/jehle/POESIA/apollo_dafne-bernini.jpg",
+	"title": "Apollo and Daphne",
+	"artist": "Bernini",
+	"date": "17th Century",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://classconnection.s3.amazonaws.com/1636/flashcards/690166/png/cornaro-chapel,-ecstacy-of-st.-teresa.png",
+	"title": "Cornaro Chapel of St. Maria della Vittoria",
+	"artist": "Bernini",
+	"date": "17th Century",
+	"medium": "fresco, marble, wood, stucco, polychrome stones",
+	"location": "Italy"
+},
+{
+	"url": "http://hughellwood.files.wordpress.com/2011/08/37-bernini-ecstasy-of-st-theresa-1645-521.jpg",
+	"title": "Cornaro Chapel - St. Teresa in Ecstasy",
+	"artist": "Bernini",
+	"date": "17th Century",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://en.wahooart.com/Art.nsf/O/5ZKD7W/$File/Michelangelo+Buonarroti+-+Doni+Tond+.JPG",
+	"title": "Doni Tondo",
+	"artist": "Michelangelo",
+	"date": "16th Century",
+	"medium": "tempera & oil on wood",
+	"location": "Italy"
+},
+{
+	"url": "http://www.hopeway.com/3-yscl/3-1-RAPHAEL/1madonna%20alba.JPG",
+	"title": "Alba Madonna",
+	"artist": "Raphael",
+	"date": "16th Century",
+	"medium": "oil on panel",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/2/2d/Michelangelo_Bacchus.jpg",
+	"title": "Bachus",
+	"artist": "Michelangelo",
+	"date": "15th Century",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/d/d7/Michelangelo's_David.JPG",
+	"title": "David",
+	"artist": "Michelangelo",
+	"date": "16th Century",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/8/8a/Michelangelo's_Pieta_5450_cropncleaned.jpg",
+	"title": "Pieta",
+	"artist": "Michelangelo",
+	"date": "15th Century",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://www.theartwolf.com/self-portraits/images/self-portrait-picasso-1901.jpg",
+	"title": "Self-Portrait",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://uploads2.wikipaintings.org/images/pablo-picasso/life-1903.jpg",
+	"title": "La Vie",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://www.metmuseum.org/toah/images/hb/hb_50.188.jpg",
+	"title": "The Blind Man's Meal",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/en/c/ca/Family_of_Saltimbanques.JPG",
+	"title": "Family of Saltimbanques",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://uploads6.wikipaintings.org/images/pablo-picasso/portrait-of-gertrude-stein-1906.jpg",
+	"title": "Portait of Gertrude Stein",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://artmusette.files.wordpress.com/2013/05/les-demoiselles-d_avignon.jpg",
+	"title": "Les Demoiselles d'Avignon",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://nonsite.org/wp-content/uploads/2011/01/Study-for-Demoiselles-pencil-and-pastel-Basel.jpg",
+	"title": "Study for Demoiselles d'Avignon",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "Pencil and pastel on paper",
+	"location": "France"
+},
+{
+	"url": "http://www.artchive.com/artchive/p/picasso/vollard.jpg",
+	"title": "Portrait of Ambroise Vollard",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://pablo-ruiz-picasso.com/images/works/2835.jpg",
+	"title": "Portrait of Ambroise Vollard (study)",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "pencil drawing",
+	"location": "France"
+},
+{
+	"url": "http://www.pablopicasso.org/images/paintings/ma-jolie.jpg",
+	"title": "Ma Jolie",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://www.npg.si.edu/img2/rebels/9500316c.jpg",
+	"title": "Jackson Pollock at Work",
+	"artist": "Hans Namuth",
+	"date": "20th Century",
+	"medium": "photograph",
+	"location": "USA"
+},
+{
+	"url": "http://www.moma.org/collection_images/resized/098/w500h420/CRI_203098.jpg",
+	"title": "The She-Wolf",
+	"artist": "Jackson Pollock",
+	"date": "20th Century",
+	"medium": "oil, gouache and plaster on canvas",
+	"location": "USA"
+},
+{
+	"url": "http://www.ibiblio.org/wm/paint/auth/pollock/fathom-five/pollock.fathom-five.jpg",
+	"title": "Full Fathom Number 5",
+	"artist": "Jackson Pollock",
+	"date": "20th Century",
+	"medium": "oil on canvas with nails, coins, keys, tack and buttons",
+	"location": "USA"
+},
+{
+	"url": "https://www.tate.org.uk/art/images/work/T/T03/T03327_10.jpg",
+	"title": "Man with Knife",
+	"artist": "Jackson Pollock",
+	"date": "20th Century",
+	"medium": "oil on canvas",
+	"location": "USA"
+},
+{
+	"url": "http://uploads1.wikipaintings.org/stenographic-figure(1).jpg",
+	"title": "Stenographic Figure",
+	"artist": "Jackson Pollock",
+	"date": "20th Century",
+	"medium": "oil on canvas",
+	"location": "USA"
+},
+
+{
+	"url": "http://3.bp.blogspot.com/-l3-wmmWFmIo/UbKT4BF5FSI/AAAAAAAAAN0/1RT7TBvi4a0/s1600/andy-warhol-dance-diagram-2-fox-trot-the-double-twinkle-man-1962.jpg",
+	"title": "Dance diagram",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "oil on canvas",
+	"location": "USA"
+},
+{
+	"url": "http://www.moma.org/collection_images/resized/097/w500h420/CRI_203097.jpg",
+	"title": "Number 1A",
+	"artist": "Jackson Pollock",
+	"date": "20th Century",
+	"medium": "oil and enamel on canvas",
+	"location": "USA"
+},
+{
+	"url": "http://www.cultorweb.com/Picasso/IMG/guernica_pablo_picasso.jpg",
+	"title": "Guernica",
+	"artist": "Picasso",
+	"date": "20th Century",
+	"medium": "oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/4/4c/Rembrandt_-_Aristotle_with_a_Bust_of_Homer_-_Google_Art_Project.jpg",
+	"title": "Aristotle with a bust of Homer",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "Oil on canvas",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/2/24/Rembrandt_The_Artist_in_his_studio.jpg",
+	"title": "The Artist in his Studio",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "Oil on panel",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/8/82/Rembrandt_-_The_Blinding_of_Samson_-_WGA19097.jpg",
+	"title": "The Blinding of Samson",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "Oil on canvas",
+	"location": "Netherlands"
+},
+{
+	"url": "http://www.metmuseum.org/toah/images/h2/h2_20.155.2.jpg",
+	"title": "Man in Oriental Costume",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "Oil on canvas",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/7/79/Carel_Fabritius_-_Saskia_van_Uylenburgh,_vrouw_van_de_schilder_Rembrandt..JPG",
+	"title": "Portrait of Saskia in profile",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "Oil on canvas",
+	"location": "Netherlands"
+},
+{
+	"url": "http://www.backtoclassics.com/images/pics/rembrandtvanrijn/rembrandtvanrijn_saskia_the_artists_wife.jpg",
+	"title": "Portrait of Saskia",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "Oil on canvas",
+	"location": "Netherlands"
+},
+{
+	"url": "http://0.tqn.com/d/arthistory/1/0/k/3/1/Rembrandt-Self-Portrait-Leaning-on-a-Stone-Sill-1639.jpg",
+	"title": "Self-Portrait Leaning on Stone Sill",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "etching",
+	"location": "Netherlands"
+},
+{
+	"url": "http://modernkicks.typepad.com/photos/uncategorized/2007/03/16/rembrandt_drawing.jpg",
+	"title": "Sketch of Raphael's Baldassare Castiglione",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "pen and ink on paper",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Baldassare_Castiglione,_by_Raffaello_Sanzio,_from_C2RMF_retouched.jpg/823px-Baldassare_Castiglione,_by_Raffaello_Sanzio,_from_C2RMF_retouched.jpg",
+	"title": "Portrait of Baldassare Castiglione",
+	"artist": "Raphael",
+	"date": "16th Century",
+	"medium": "Oil on canvas",
+	"location": "Italy"
+},
+{
+	"url": "http://www.newdoodles.co.nz/images/Rembrandt.jpg",
+	"title": "Self-Portrait",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "Oil on canvas",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/8/8c/The_Anatomy_Lesson.jpg",
+	"title": "The Anatomy Lesson of Dr. Nicholaes Tulp",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "Oil on canvas",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/2/28/The_Nightwatch_by_Rembrandt.jpg",
+	"title": "The Nightwatch: The Militia Company of Captain Frans Banning Cocq",
+	"artist": "Rembrandt",
+	"date": "17th Century",
+	"medium": "Oil on canvas",
+	"location": "Netherlands"
+},
+{
+	"url": "data/oxidation.png",
+	"title": "Oxidation painting",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "pigment and urine on gesso on canvas",
+	"location": "USA"
+},
+{
+	"url": "http://p2.la-img.com/1045/28183/10782422_1_l.jpg",
+	"title": "A Gold Book",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "illustrated book with 20 photolithographs",
+	"location": "USA"
+},
+{
+	"url": "http://henrimag.com/Andy_Warhol_TV199.jpg",
+	"title": "$199 Television",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "oil, ink and pencil on canvas",
+	"location": "USA"
+},
+{
+	"url": "http://henrimag.com/Andy_Warhol_Icebox.jpg",
+	"title": "Icebox",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "oil, ink and pencil on canvas",
+	"location": "USA"
+},
+{
+	"url": "http://debr.is/files/2011/andy-warhol-07.jpg",
+	"title": "Advertisement",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "synthetic polymer paint on canvas",
+	"location": "USA"
+},
+{
+	"url": "http://classconnection.s3.amazonaws.com/139/flashcards/270139/jpg/warhol_32_campbell's_soup_cans.jpg",
+	"title": "32 Campbell's Soup Cans",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "screenprints",
+	"location": "USA"
+},
+{
+	"url": "http://1.bp.blogspot.com/-Pos5jAH0J5Y/TtlamgcbIpI/AAAAAAAALJY/CTDOGoZrJJQ/s1600/Warhol%252C%2BCampbell%2527s%2BSoup%2BCan%2B1964.jpg",
+	"title": "Large Campbell's Soup Can",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "screenprint",
+	"location": "USA"
+},
+{
+	"url": "http://www.tate.org.uk/art/images/work/T/T03/T03093_10.jpg",
+	"title": "Marilyn Diptych",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "acrylic and silkscreen canvas",
+	"location": "USA"
+},
+{
+	"url": "http://artobserved.com/artimages/2009/06/ethelscullViathefirstpost.jpg",
+	"title": "Ethyl Scull 36 times",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "acrylic and silkscreen",
+	"location": "USA"
+},
+{
+	"url": "http://zubetta.free.fr/P6%20lisaa/Artistes%20divers/Warhol%20Andy/jackie%20(The%20Week%20that%20was)%2063.jpg",
+	"title": "Jackie (The Week That Was I)",
+	"artist": "Warhol",
+	"date": "20th Century",
+	"medium": "acrylic and silkscreen canvas",
+	"location": "USA"
+},
+{
+	"url": "http://france.cultureru.com/wp-content/uploads/2011/04/90.jpg",
+	"title": "Dejeuner sur l'Herbe",
+	"artist": "Monet",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://uploads2.wikipaintings.org/images/claude-monet/women-in-the-garden.jpg",
+	"title": "Women in the Garden",
+	"artist": "Monet",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/3/39/Monet_-Terrasse_am_Meeresufer_von_Sainte_Adresse.jpg",
+	"title": "Terasse at Sainte-Adresse",
+	"artist": "Monet",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/9/9f/Claude_Monet_010.jpg",
+	"title": "Pont a Argenteuil",
+	"artist": "Monet",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/e/e3/Monet_men_unloading_coal.jpg",
+	"title": "Unloading Coal",
+	"artist": "Monet",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://www.canvasreplicas.com/images/River%20Scene%20at%20Bennecourt%20Claude%20Monet.jpg",
+	"title": "The River",
+	"artist": "Monet",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/6/67/Claude_Monet_La_Grenouill%C3%A9re.jpg",
+	"title": "La Grenouillere",
+	"artist": "Monet",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Claude_Monet,_Impression,_soleil_levant,_1872.jpg",
+	"title": "Impression Sunrise",
+	"artist": "Monet",
+	"date": "19th Century",
+	"medium": "Oil on canvas",
+	"location": "France"
+}
+
+];
