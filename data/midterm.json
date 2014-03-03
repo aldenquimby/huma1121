@@ -1,5 +1,7 @@
 var art = [
+// *****************************
 // FROM 1.1
+// *****************************
 {
 	"url": "http://upload.wikimedia.org/wikipedia/commons/a/a3/Watsonandtheshark-original.jpg",
 	"title": "Brook Watson and the Shark",
@@ -24,8 +26,12 @@ var art = [
 	"medium": "Bronze (copy in marble)",
 	"location": "Greece (copy in Rome)"
 },
+// *****************************
 // FROM 1.2
+// *****************************
+// *****************************
 // FROM 2.1
+// *****************************
 {
 	"url": "http://academic.reed.edu/humanities/110tech/thumbnails/SouthMetope31.JPG",
 	"title": "Centauromachy",
@@ -59,7 +65,9 @@ var art = [
 	"medium": "Stone",
 	"location": "France"
 },
+// *****************************
 // FROM 3.1
+// *****************************
 {
 	"url": "data/gothic-portal.png",
 	"title": "Gothic Portal",
@@ -68,7 +76,9 @@ var art = [
 	"medium": "NA",
 	"location": "France"
 },
+// *****************************
 // FROM 3.2
+// *****************************
 {
 	"url": "http://upload.wikimedia.org/wikipedia/commons/d/d5/Berlinghiero_Berlinghieri_005.jpg",
 	"title": "Madonna and Child",
@@ -141,36 +151,93 @@ var art = [
 	"medium": "Oil on panel",
 	"location": "Italy"
 },
+// *****************************
 // FROM 4.1
-
-// Raphael, ceiling vault  with roundels bearing personifications (1508-1509), fresco and mosaic, Stanza della Segnatura.
-
-// Raphael, roundel with personification of Theology, fresco and mosaic, Stanza della Segnatura, 
-// Raphael’s study drawing of the figure, pen and brown ink on paper, Oxford, Ashmolean Museum.
-
-// Raphael, roundel with personification of Poetry, fresco and mosaic, Stanza della Segnatura, 
-// Raphael’s preparatory drawing of the figure, black chalk and touches of charcoal over stylus on paper, Windsor, Royal Collection.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// *****************************
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/a/af/Pope_Julius_II.jpg",
+	"title": "Portrait of Pope Julius II",
+	"artist": "Raphael",
+	"date": "1511",
+	"medium": "Oil on panel",
+	"location": "Vatican, Italy"
+},
+{
+	"url": "http://employees.oneonta.edu/farberas/arth/Images/ARTH213images/StanzadellaSegnatura/ceiling/theology.jpg",
+	"title": "Stanza della Segnatura (roundel with personification of Theology)",
+	"artist": "Raphael",
+	"date": "1508-1509",
+	"medium": "Fresco and mosaic ceiling",
+	"location": "Vatican, Italy"
+},
+{
+	"url": "http://www.gotterdammerung.org/photo/travel/vatican-city/vatican-museums/060905-162502_2841%20The%20Muse%20of%20Poetry%20in%20Stanza%20della%20Segnatura%20of%20the%20Raphael%20Rooms.jpg",
+	"title": "Stanza della Segnatura (roundel with personification of Poetry)",
+	"artist": "Raphael",
+	"date": "1508-1509",
+	"medium": "Fresco and mosaic ceiling",
+	"location": "Vatican, Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/6/61/Disputa_del_Sacramento_(Rafael).jpg",
+	"title": "Stanza della Segnatura (Disputation)",
+	"artist": "Raphael",
+	"date": "1509-1510",
+	"medium": "Fresco",
+	"location": "Vatican, Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/9/94/Sanzio_01.jpg",
+	"title": "Stanza della Segnatura (The School of Athens)",
+	"artist": "Raphael",
+	"date": "1509-1510",
+	"medium": "Fresco",
+	"location": "Vatican, Italy"
+},
+// *****************************
 // FROM 4.2
+// *****************************
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/4/46/Rapha%C3%ABl_-_%C3%89tude_Madone_d'Albe_1.jpg",
+	"title": "Study for the Alba Madonna and Other Drawings",
+	"artist": "Raphael",
+	"date": "1511",
+	"medium": "Red chalk and pen and ink",
+	"location": "Italy"
+},
+{
+	"url": "http://www.metmuseum.org/toah/images/hb/hb_24.197.2.jpg",
+	"title": "Studies for the Libyan Sibyl",
+	"artist": "Michelangelo",
+	"date": "1507-1509",
+	"medium": "Red chalk on paper",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/d/d3/Battagliadicascina.jpg",
+	"title": "Battle of Càscina",
+	"artist": "Michelangelo",
+	"date": "1503-1505",
+	"medium": "Grisaille on panel",
+	"location": "Italy"
+},
+{
+	"url": "http://www.wga.hu/art/m/michelan/2paintin/1doniton.jpg",
+	"title": "The Doni Tondo",
+	"artist": "Michelangelo",
+	"date": "1504-06",
+	"medium": "Oil and tempera on panel",
+	"location": "Italy"
+},
 
+
+// *****************************
 // FROM 5.1
+// *****************************
 
+// *****************************
 // FROM 5.2
+// *****************************
 
 
 ];
