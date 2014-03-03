@@ -22,7 +22,7 @@ var art = [
 	"url": "http://upload.wikimedia.org/wikipedia/commons/b/b5/Doryphoros_MAN_Napoli_Inv6011-2.jpg",
 	"title": "Doryphoros",
 	"artist": "Polykleitos",
-	"date": "450 BC",
+	"date": "440 BC",
 	"medium": "Bronze (copy in marble)",
 	"location": "Greece (copy in Rome)"
 },
@@ -68,6 +68,14 @@ var art = [
 // *****************************
 // FROM 3.1
 // *****************************
+{
+	"url": "data/amiens-tympanum-central-portal.png",
+	"title": "Last Judgement, tympanum of central portal, Notre Dame d’Amiens",
+	"artist": "NA",
+	"date": "1220-1270",
+	"medium": "Stone",
+	"location": "France"
+},
 {
 	"url": "data/gothic-portal.png",
 	"title": "Gothic Portal",
@@ -229,12 +237,97 @@ var art = [
 	"medium": "Oil and tempera on panel",
 	"location": "Italy"
 },
-
-
+{
+	"url": "http://www.fulcrumgallery.com/product-images/P680627-10/sistine-chapel-ceiling-the-prophet-jeremiah.jpg",
+	"title": "Prophet Jeremiah, Sistine Chapel ceiling",
+	"artist": "Michelangelo",
+	"date": "1508-1512",
+	"medium": "Fresco",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/6/67/Raphael_School_of_Athens_Michelangelo.jpg",
+	"title": "'Michelangelo' from School of Athens, Stanza della Segnatura",
+	"artist": "Raphael",
+	"date": "1509-1511",
+	"medium": "Fresco",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/0/0b/Isaiah-Michelangelo.jpg",
+	"title": "Prophet Isaiah, Sistine Chapel ceiling",
+	"artist": "Michelangelo",
+	"date": "1508-1512",
+	"medium": "Fresco",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Michelangelo_the_libyan.jpg",
+	"title": "Libyan Sibyl, Sistine Chapel ceiling",
+	"artist": "Michelangelo",
+	"date": "1508-1512",
+	"medium": "Fresco",
+	"location": "Italy"
+},
+{
+	"url": "http://vatican.com/files/photos/218vatican_sistine_chapel_creation_adam_michelangelo.jpg",
+	"title": "Creation of Adam (Genesis), Sistine Chapel ceiling",
+	"artist": "Michelangelo",
+	"date": "1508-1512",
+	"medium": "Fresco",
+	"location": "Italy"
+},
+{
+	"url": "http://spectatio.files.wordpress.com/2012/05/sistine-eve.jpg",
+	"title": "Creation of Eve (Genesis), Sistine Chapel ceiling",
+	"artist": "Michelangelo",
+	"date": "1508-1512",
+	"medium": "Fresco",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/a/a5/Michelangelo,_Giudizio_Universale_02.jpg",
+	"title": "Last Judgment, Sistine Chapel wall above High Altar",
+	"artist": "Michelangelo",
+	"date": "1534-1541",
+	"medium": "Fresco",
+	"location": "Italy"
+},
 // *****************************
 // FROM 5.1
 // *****************************
-
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Michelangelo_Bacchus.jpg/346px-Michelangelo_Bacchus.jpg",
+	"title": "Bacchus",
+	"artist": "Michelangelo",
+	"date": "1496-1497",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/1/19/Maarten_van_Heemskerck_011.jpg",
+	"title": "Jacopo Galli’s Garden in Rome",
+	"artist": "Maarten van Heemskerk",
+	"date": "1532-35",
+	"medium": "Pen and ink on paper",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/8/8a/Michelangelo's_Pieta_5450_cropncleaned.jpg",
+	"title": "Pietà",
+	"artist": "Michelangelo",
+	"date": "1498-1499",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/d/d7/Michelangelo's_David.JPG",
+	"title": "David",
+	"artist": "Michelangelo",
+	"date": "1501-1504",
+	"medium": "Marble",
+	"location": "Italy"
+},
 // *****************************
 // FROM 5.2
 // *****************************
