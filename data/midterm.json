@@ -331,6 +331,78 @@ var art = [
 // *****************************
 // FROM 5.2
 // *****************************
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/a/aa/Pieter_Bruegel_The_Peasant_Dance.jpg",
+	"title": "Peasant Dance",
+	"artist": "Bruegel",
+	"date": "1567",
+	"medium": "oil on panel",
+	"location": "Netherlands"
+},
+{
+	"url": "http://www.metmuseum.org/toah/images/hb/hb_19.164.jpg",
+	"title": "The Harvesters",
+	"artist": "Bruegel",
+	"date": "1565",
+	"medium": "oil on panel",
+	"location": "Netherlands"
+},
+{
+	"url": "http://uploads4.wikipaintings.org/images/pieter-bruegel-the-elder/netherlandish-proverbs-1559.jpg",
+	"title": "Netherlandish Proverbs",
+	"artist": "Bruegel",
+	"date": "1559",
+	"medium": "oil on panel",
+	"location": "Netherlands"
+},
+{
+	"url": "http://www.metmuseum.org/toah/images/h2/h2_17.3.859.jpg",
+	"title": "Big Fish Eat Little Fish",
+	"artist": "Bruegel",
+	"date": "1556",
+	"medium": "pen on paper, later engraved and printed",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/d/d4/Pieter_Bruegel_the_Elder-_The_Seven_Deadly_Sins_or_the_Seven_Vices_-_Pride.JPG",
+	"title": "Pride/Superbia",
+	"artist": "Bruegel",
+	"date": "1558",
+	"medium": "pen on paper, later engraved and printed",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/c/c2/Pieter_Bruegel_de_Oude_-_De_val_van_Icarus.jpg",
+	"title": "Fall of Icarus",
+	"artist": "Bruegel",
+	"date": "1558",
+	"medium": "oil on panel",
+	"location": "Netherlands"
+},
+{
+	"url": "http://uploads2.wikipaintings.org/images/pieter-bruegel-the-elder/justice.jpg",
+	"title": "Justice/Iusticia",
+	"artist": "Bruegel",
+	"date": "1559",
+	"medium": "pen on paper, later engraved and printed",
+	"location": "Netherlands"
+},
+{
+	"url": "http://upload.wikimedia.org/wikipedia/commons/4/4e/Pieter_Bruegel_d._%C3%84._007.jpg",
+	"title": "Procession to Calvary",
+	"artist": "Bruegel",
+	"date": "1564",
+	"medium": "oil on panel",
+	"location": "Netherlands"
+},
+// *****************************
+// FROM 6.1
+// *****************************
+// *****************************
+// FROM 6.2
+// *****************************
+
+
 
 
 ];
