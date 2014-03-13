@@ -3,7 +3,6 @@ var art = [
 // FROM 1.1
 // *****************************
 {
-	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/a/a3/Watsonandtheshark-original.jpg",
 	"title": "Brook Watson and the Shark",
 	"artist": "John Singleton Copley",
@@ -12,7 +11,6 @@ var art = [
 	"location": "USA"
 },
 {
-	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/d/d3/Winslow_Homer_004.jpg",
 	"title": "The Gulf Stream",
 	"artist": "Winslow Homer",
@@ -43,7 +41,6 @@ var art = [
 	"location": "Athens, Greece"
 },
 {
-	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/0/02/Athena_Parthenos_LeQuire.jpg",
 	"title": "Athena Parthenos",
 	"artist": "Pheidias",
@@ -57,7 +54,7 @@ var art = [
 {
 	"url": "data/saint-pierre.png",
 	"title": "Romanesque Cathédrale Saint-Pierre d’Angoulême",
-	"artist": "NA",
+	"artist": "",
 	"date": "1110-1128",
 	"medium": "Stone",
 	"location": "France"
@@ -65,19 +62,19 @@ var art = [
 {
 	"url": "http://upload.wikimedia.org/wikipedia/commons/2/2c/0_Amiens_-_Cath%C3%A9drale_Notre-Dame_%281%29.JPG",
 	"title": "Gothic Cathédrale Notre-Dame d’Amiens",
-	"artist": "NA",
+	"artist": "",
 	"date": "1220-1269",
 	"medium": "Stone",
 	"location": "France"
 },
 {
 	"focus": true,
-	"url": "data/cathedral_layour.png",
-	"title": "1 - radiating chapels, 2 - ambulatory, 3 - high altar, 4 - choir, 5 - choir aisle, 6 - crossing, 7 - transept arms, 8 - buttress, 9 - nave, 10 - nave aisle, 11 - west facade portals, X - quadripartite rib vault",
-	"artist": "NA",
-	"date": "NA",
-	"medium": "NA",
-	"location": "NA"
+	"url": "data/cathedral_layout.png",
+	"title": "Cathedral Layout",
+	"artist": "1 - radiating chapels, 2 - ambulatory, 3 - high altar, 4 - choir, 5 - choir aisle, 6 - crossing, 7 - transept arms, 8 - buttress, 9 - nave, 10 - nave aisle, 11 - west facade portals, X - quadripartite rib vault",
+	"date": "",
+	"medium": "",
+	"location": ""
 },
 // *****************************
 // FROM 3.1
@@ -85,7 +82,7 @@ var art = [
 {
 	"url": "data/amiens-tympanum-central-portal.png",
 	"title": "Last Judgement, tympanum of central portal, Notre Dame d’Amiens",
-	"artist": "NA",
+	"artist": "",
 	"date": "1220-1270",
 	"medium": "Stone",
 	"location": "France"
@@ -94,16 +91,15 @@ var art = [
 	"focus": true,
 	"url": "data/gothic-portal.png",
 	"title": "Gothic Portal",
-	"artist": "A- gable B- archivolts C- tympanum D- lintel E- trumeau F- canopies G- jamb figures H- embrasures I- projecting buttresses",
-	"date": "NA",
-	"medium": "NA",
-	"location": "France"
+	"artist": "A - gable, B - archivolts, C - tympanum, D - lintel, E - trumeau, F - canopies, G - jamb, H - embrasures, I - projecting buttresses",
+	"date": "",
+	"medium": "",
+	"location": ""
 },
 // *****************************
 // FROM 3.2
 // *****************************
 {
-	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/d/d5/Berlinghiero_Berlinghieri_005.jpg",
 	"title": "Madonna and Child",
 	"artist": "Berlinghiero",
@@ -153,7 +149,6 @@ var art = [
 	"location": "Italy"
 },
 {
-	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RAFAEL_-_Madonna_Sixtina_(Gem%C3%A4ldegalerie_Alter_Meister,_Dresde,_1513-14._%C3%93leo_sobre_lienzo,_265_x_196_cm).jpg/747px-RAFAEL_-_Madonna_Sixtina_(Gem%C3%A4ldegalerie_Alter_Meister,_Dresde,_1513-14._%C3%93leo_sobre_lienzo,_265_x_196_cm).jpg",
 	"title": "Sistine Madonna",
 	"artist": "Raphael",
@@ -232,7 +227,6 @@ var art = [
 	"location": "Italy"
 },
 {
-	"focus": true,
 	"url": "http://www.metmuseum.org/toah/images/hb/hb_24.197.2.jpg",
 	"title": "Studies for the Libyan Sibyl",
 	"artist": "Michelangelo",
@@ -446,7 +440,6 @@ var art = [
 	"location": "Italy"
 },
 {
-	"focus": true,
 	"url": "http://www.mlahanas.de/Greeks/Arts/Helenistic/BGGladiator.jpg",
 	"title": "Borghese Warrior",
 	"artist": "Agasias of Ephesus",
@@ -456,7 +449,6 @@ var art = [
 	"importance": "Bernini's David"
 },
 {
-	"focus": true,
 	"url": "http://maitaly.files.wordpress.com/2011/03/e-bernini_proserpina.jpg",
 	"title": "Pluto and Persephone",
 	"artist": "Bernini",
@@ -465,7 +457,6 @@ var art = [
 	"location": "Italy"
 },
 {
-	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/f/fd/Giambologna_sabine.jpg",
 	"title": "Rape of the Sabine Women",
 	"artist": "Giambologna",
@@ -474,7 +465,6 @@ var art = [
 	"location": "Italy"
 },
 {
-	"focus": true,
 	"url": "http://dericbownds.net/uploaded_images/esthetic1.jpeg",
 	"title": "Atlas Slave",
 	"artist": "Michelangelo",
@@ -483,7 +473,6 @@ var art = [
 	"location": "Italy"
 },
 {
-	"focus": true,
 	"url": "http://www.wga.hu/art/b/bernini/gianlore/sculptur/1630/longinus.jpg",
 	"title": "St. Longinus",
 	"artist": "Bernini",
@@ -492,7 +481,6 @@ var art = [
 	"location": "Italy"
 },
 {
-	"focus": true,
 	"url": "http://users.ipfw.edu/jehle/POESIA/apollo_dafne-bernini.jpg",
 	"title": "Apollo and Daphne",
 	"artist": "Bernini",
