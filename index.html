@@ -9,11 +9,8 @@
 </head>
 
 <body>
-	<div class="showAll">
-		<a href="#">show all</a>
-	</div>
-	<div class="hideAll">
-		<a href="#">hide all</a>
+	<div class="toggleAll">
+		<a href="#">toggle all</a>
 	</div>
 	<div class="row header">
 		<div class="col-md-6"><h2>Images</h2></div>
@@ -22,9 +19,9 @@
 </body>
 
 <!-- JS framework -->
-<script src="scripts/framework/jquery-1.10.2.min.js"></script>
+<script src="scripts/framework/jquery-2.1.0.min.js"></script>
 <script src="scripts/framework/underscore-min.js"></script>
-<script src="scripts/framework/backbone.js"></script>
+<script src="scripts/framework/backbone-min.js"></script>
 <script src="scripts/framework/mustache.js"></script>
 <script src="scripts/framework/jquery-mustache.js"></script>
 
@@ -49,6 +46,7 @@
 			   -->
 			  <dt>Medium</dt><dd>{{medium}}</dd>
 			  <dt>Location</dt><dd>{{location}}</dd>
+			  <dt>Importance</dt><dd>{{importance}}</dd>
 			</dl>
 		</div>
 	</div>
@@ -61,7 +59,8 @@
 <script>
 	$(function () {
 		$.Mustache.addFromDom('work');
-		new StudyView({el: $('body')});
+		var focus = window.location.search.indexOf('focus=true') != -1;
+		new StudyView({el: $('body'), focus:focus});
 	});
 </script>
 

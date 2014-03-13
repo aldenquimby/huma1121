@@ -2,14 +2,19 @@ var StudyView = Backbone.View.extend({
 
 	events : {
 		"click .toggle" :"toggleone",
-		"click .hideAll": "hideAll",
-		"click .showAll": "showAll"
+		"click .toggleAll": "toggleAll"
 	},
 
 	initialize : function() {
 		var self = this;
+
+		self.art = art;
+		if (self.options.focus) {
+			self.art = _.filter(self.art, function(a) { return a.focus; });
+		}
+
 		self.render();
-		
+		self.$('.details').hide();
 	},
 
 	toggleone: function (e) {
@@ -19,24 +24,20 @@ var StudyView = Backbone.View.extend({
 		deets.toggle();
 	},
 
-	hideAll: function (e) {
+	toggleAll: function (e) {
 		e.preventDefault();
 		var self = this;
-		self.$('.details').hide();
-	},
-
-	showAll: function (e) {
-		e.preventDefault();
-		var self = this;
-		self.$('.details').show();
+		self.$('.details').toggle();
 	},
 
 	render: function () {
 		var self = this;
 		var html = "";
 
-		art = _.shuffle(art); 
-		_.each(art, function (data){
+		alert(self.art.length);
+
+		self.art = _.shuffle(self.art); 
+		_.each(self.art, function (data){
 			html += $.Mustache.render('work', data);
 		});
 

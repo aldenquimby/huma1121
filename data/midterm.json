@@ -3,6 +3,7 @@ var art = [
 // FROM 1.1
 // *****************************
 {
+	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/a/a3/Watsonandtheshark-original.jpg",
 	"title": "Brook Watson and the Shark",
 	"artist": "John Singleton Copley",
@@ -11,6 +12,7 @@ var art = [
 	"location": "USA"
 },
 {
+	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/d/d3/Winslow_Homer_004.jpg",
 	"title": "The Gulf Stream",
 	"artist": "Winslow Homer",
@@ -41,14 +43,17 @@ var art = [
 	"location": "Athens, Greece"
 },
 {
+	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/0/02/Athena_Parthenos_LeQuire.jpg",
 	"title": "Athena Parthenos",
-	"artist": "Pheidias (image is copy be LeQuire)",
+	"artist": "Pheidias",
 	"date": "438 BC",
 	"medium": "Gold and ivory",
 	"location": "Athens, Greece"
 },
+// *****************************
 // FROM 2.2
+// *****************************
 {
 	"url": "data/saint-pierre.png",
 	"title": "Romanesque Cathédrale Saint-Pierre d’Angoulême",
@@ -65,6 +70,15 @@ var art = [
 	"medium": "Stone",
 	"location": "France"
 },
+{
+	"focus": true,
+	"url": "data/cathedral_layour.png",
+	"title": "1 - radiating chapels, 2 - ambulatory, 3 - high altar, 4 - choir, 5 - choir aisle, 6 - crossing, 7 - transept arms, 8 - buttress, 9 - nave, 10 - nave aisle, 11 - west facade portals, X - quadripartite rib vault",
+	"artist": "NA",
+	"date": "NA",
+	"medium": "NA",
+	"location": "NA"
+},
 // *****************************
 // FROM 3.1
 // *****************************
@@ -77,6 +91,7 @@ var art = [
 	"location": "France"
 },
 {
+	"focus": true,
 	"url": "data/gothic-portal.png",
 	"title": "Gothic Portal",
 	"artist": "A- gable B- archivolts C- tympanum D- lintel E- trumeau F- canopies G- jamb figures H- embrasures I- projecting buttresses",
@@ -88,6 +103,7 @@ var art = [
 // FROM 3.2
 // *****************************
 {
+	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/d/d5/Berlinghiero_Berlinghieri_005.jpg",
 	"title": "Madonna and Child",
 	"artist": "Berlinghiero",
@@ -125,7 +141,8 @@ var art = [
 	"artist": "Fra Angelico",
 	"date": "1423-1424",
 	"medium": "Tempera on panel",
-	"location": "Italy"
+	"location": "Italy",
+	"importance": "Vibrant colors, darkest is full saturation"
 },
 {
 	"url": "http://www.uffizi.org/img/artworks/raphael-madonna-goldfinch.jpg",
@@ -136,6 +153,7 @@ var art = [
 	"location": "Italy"
 },
 {
+	"focus": true,
 	"url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RAFAEL_-_Madonna_Sixtina_(Gem%C3%A4ldegalerie_Alter_Meister,_Dresde,_1513-14._%C3%93leo_sobre_lienzo,_265_x_196_cm).jpg/747px-RAFAEL_-_Madonna_Sixtina_(Gem%C3%A4ldegalerie_Alter_Meister,_Dresde,_1513-14._%C3%93leo_sobre_lienzo,_265_x_196_cm).jpg",
 	"title": "Sistine Madonna",
 	"artist": "Raphael",
@@ -172,7 +190,7 @@ var art = [
 },
 {
 	"url": "http://employees.oneonta.edu/farberas/arth/Images/ARTH213images/StanzadellaSegnatura/ceiling/theology.jpg",
-	"title": "Stanza della Segnatura (roundel with personification of Theology)",
+	"title": "Stanza della Segnatura (personification of Theology)",
 	"artist": "Raphael",
 	"date": "1508-1509",
 	"medium": "Fresco and mosaic ceiling",
@@ -180,7 +198,7 @@ var art = [
 },
 {
 	"url": "http://www.gotterdammerung.org/photo/travel/vatican-city/vatican-museums/060905-162502_2841%20The%20Muse%20of%20Poetry%20in%20Stanza%20della%20Segnatura%20of%20the%20Raphael%20Rooms.jpg",
-	"title": "Stanza della Segnatura (roundel with personification of Poetry)",
+	"title": "Stanza della Segnatura (personification of Poetry)",
 	"artist": "Raphael",
 	"date": "1508-1509",
 	"medium": "Fresco and mosaic ceiling",
@@ -214,6 +232,7 @@ var art = [
 	"location": "Italy"
 },
 {
+	"focus": true,
 	"url": "http://www.metmuseum.org/toah/images/hb/hb_24.197.2.jpg",
 	"title": "Studies for the Libyan Sibyl",
 	"artist": "Michelangelo",
@@ -283,7 +302,8 @@ var art = [
 	"artist": "Michelangelo",
 	"date": "1508-1512",
 	"medium": "Fresco",
-	"location": "Italy"
+	"location": "Italy",
+	"importance": "\"From Adam’s rib\" - overcoming representational challenges"
 },
 {
 	"url": "http://upload.wikimedia.org/wikipedia/commons/a/a5/Michelangelo,_Giudizio_Universale_02.jpg",
@@ -336,7 +356,7 @@ var art = [
 	"title": "Peasant Dance",
 	"artist": "Bruegel",
 	"date": "1567",
-	"medium": "oil on panel",
+	"medium": "Oil on panel",
 	"location": "Netherlands"
 },
 {
@@ -344,7 +364,7 @@ var art = [
 	"title": "The Harvesters",
 	"artist": "Bruegel",
 	"date": "1565",
-	"medium": "oil on panel",
+	"medium": "Oil on panel",
 	"location": "Netherlands"
 },
 {
@@ -352,7 +372,7 @@ var art = [
 	"title": "Netherlandish Proverbs",
 	"artist": "Bruegel",
 	"date": "1559",
-	"medium": "oil on panel",
+	"medium": "Oil on panel",
 	"location": "Netherlands"
 },
 {
@@ -360,7 +380,7 @@ var art = [
 	"title": "Big Fish Eat Little Fish",
 	"artist": "Bruegel",
 	"date": "1556",
-	"medium": "pen on paper, later engraved and printed",
+	"medium": "Pen on paper, later engraved and printed",
 	"location": "Netherlands"
 },
 {
@@ -368,7 +388,7 @@ var art = [
 	"title": "Pride/Superbia",
 	"artist": "Bruegel",
 	"date": "1558",
-	"medium": "pen on paper, later engraved and printed",
+	"medium": "Pen on paper, later engraved and printed",
 	"location": "Netherlands"
 },
 {
@@ -376,7 +396,7 @@ var art = [
 	"title": "Fall of Icarus",
 	"artist": "Bruegel",
 	"date": "1558",
-	"medium": "oil on panel",
+	"medium": "Oil on panel",
 	"location": "Netherlands"
 },
 {
@@ -384,7 +404,7 @@ var art = [
 	"title": "Justice/Iusticia",
 	"artist": "Bruegel",
 	"date": "1559",
-	"medium": "pen on paper, later engraved and printed",
+	"medium": "Pen on paper, later engraved and printed",
 	"location": "Netherlands"
 },
 {
@@ -392,7 +412,7 @@ var art = [
 	"title": "Procession to Calvary",
 	"artist": "Bruegel",
 	"date": "1564",
-	"medium": "oil on panel",
+	"medium": "Oil on panel",
 	"location": "Netherlands"
 },
 // *****************************
@@ -401,8 +421,84 @@ var art = [
 // *****************************
 // FROM 6.2
 // *****************************
-
-
-
+{
+	"url": "http://www.metmuseum.org/toah/images/hb/hb_1976.92.jpg",
+	"title": "Faun Teased by Children",
+	"artist": "Bernini",
+	"date": "1616-1617",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://employees.oneonta.edu/farberas/arth/Images/110images/sl13_images/bernini_david4.jpg",
+	"title": "David",
+	"artist": "Bernini",
+	"date": "1623",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"url": "http://www.cmaj.ca/content/180/3/321/F4.large.jpg",
+	"title": "Self-portrait",
+	"artist": "Bernini",
+	"date": "1635",
+	"medium": "Chalk on paper",
+	"location": "Italy"
+},
+{
+	"focus": true,
+	"url": "http://www.mlahanas.de/Greeks/Arts/Helenistic/BGGladiator.jpg",
+	"title": "Borghese Warrior",
+	"artist": "Agasias of Ephesus",
+	"date": "100 BC",
+	"medium": "Marble",
+	"location": "Italy",
+	"importance": "Bernini's David"
+},
+{
+	"focus": true,
+	"url": "http://maitaly.files.wordpress.com/2011/03/e-bernini_proserpina.jpg",
+	"title": "Pluto and Persephone",
+	"artist": "Bernini",
+	"date": "1621",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"focus": true,
+	"url": "http://upload.wikimedia.org/wikipedia/commons/f/fd/Giambologna_sabine.jpg",
+	"title": "Rape of the Sabine Women",
+	"artist": "Giambologna",
+	"date": "1583",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"focus": true,
+	"url": "http://dericbownds.net/uploaded_images/esthetic1.jpeg",
+	"title": "Atlas Slave",
+	"artist": "Michelangelo",
+	"date": "1519-1536",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"focus": true,
+	"url": "http://www.wga.hu/art/b/bernini/gianlore/sculptur/1630/longinus.jpg",
+	"title": "St. Longinus",
+	"artist": "Bernini",
+	"date": "1629-1638",
+	"medium": "Marble",
+	"location": "Italy"
+},
+{
+	"focus": true,
+	"url": "http://users.ipfw.edu/jehle/POESIA/apollo_dafne-bernini.jpg",
+	"title": "Apollo and Daphne",
+	"artist": "Bernini",
+	"date": "1622-1625",
+	"medium": "Marble",
+	"location": "Italy"
+}
 
 ];
